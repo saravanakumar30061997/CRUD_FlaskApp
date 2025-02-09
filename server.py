@@ -120,4 +120,4 @@ def add_owner():
     return render_template('add_owner.html',form=form)
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run()
